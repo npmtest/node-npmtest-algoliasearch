@@ -1,4 +1,7 @@
-# test coverage for  [algoliasearch (v3.22.1)](https://github.com/algolia/algoliasearch-client-js)  [![npm package](https://img.shields.io/npm/v/npmtest-algoliasearch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-algoliasearch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-algoliasearch.svg)](https://travis-ci.org/npmtest/node-npmtest-algoliasearch)
+# npmtest-algoliasearch
+
+#### basic test-coverage for  [algoliasearch (v3.22.1)](https://github.com/algolia/algoliasearch-client-js)  [![npm package](https://img.shields.io/npm/v/npmtest-algoliasearch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-algoliasearch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-algoliasearch.svg)](https://travis-ci.org/npmtest/node-npmtest-algoliasearch)
+
 #### AlgoliaSearch API JavaScript client
 
 [![NPM](https://nodei.co/npm/algoliasearch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/algoliasearch)
@@ -186,7 +189,8 @@
         "test-ci": "./scripts/test-ci",
         "watch": "watchify index.js -d -v -s algoliasearch -o dist/algoliasearch.js"
     },
-    "version": "3.22.1"
+    "version": "3.22.1",
+    "bin": {}
 }
 ```
 
